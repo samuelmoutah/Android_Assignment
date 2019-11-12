@@ -6,36 +6,203 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <EditText
-        android:id="@+id/edit_text_first"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter first name"
-        />
+        android:weightSum="2"
+        android:orientation="horizontal" >
 
-    <EditText
-        android:id="@+id/edit_text_last"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter last name" />
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
 
-    <EditText
-        android:id="@+id/edit_text_address"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter address" />
+            <EditText
 
-    <EditText
-        android:id="@+id/edit_text_state"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Enter state" />
+                android:id="@+id/edit_text_first"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter first name"
+                />
 
-    <EditText
-        android:id="@+id/edit_text_zip"
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/edit_text_last"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter last name" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter zip code" />
+        android:weightSum="2"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <EditText
+
+                android:id="@+id/edit_text_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter address"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/edit_text_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter state" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <EditText
+
+                android:id="@+id/edit_text_zip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter zip code"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/edit_text_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter age" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <EditText
+
+                android:id="@+id/edit_text_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter gender"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/edit_text_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter phone" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <EditText
+
+                android:id="@+id/edit_text_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter email"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+
+                android:id="@+id/edit_text_hobby"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter hobby" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
 
 
     <Button

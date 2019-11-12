@@ -40,4 +40,24 @@ class MainActivity : AppCompatActivity(), FirstFragment.OnFragmentInteractionLis
     override fun onFragmentInteraction_zip(zip: String) {
         text_view_zip.text = zip
     }
+
+    override fun onFragmentInteraction_age(age: String) {
+        text_view_age.text = age
+    }
+
+    override fun onFragmentInteraction_gender(gender: String) {
+        text_view_gender.text = gender
+    }
+
+    override fun onFragmentInteraction_phone(phone: String) {
+        text_view_phone.text = phone
+    }
+
+    override fun onFragmentInteraction_email(email: String) {
+        text_view_email.text = email
+    }
+
+    override fun onFragmentInteraction_hobby(hobby: String) {
+        text_view_hobby.text = hobby
+    }
 }

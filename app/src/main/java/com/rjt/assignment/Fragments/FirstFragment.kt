@@ -48,12 +48,22 @@ class FirstFragment : Fragment() {
             var address = edit_text_address.text.toString()
             var state = edit_text_state.text.toString()
             var zip = edit_text_zip.text.toString()
+            var age = edit_text_age.text.toString()
+            var gender = edit_text_gender.text.toString()
+            var phone = edit_text_phone.text.toString()
+            var email = edit_text_email.text.toString()
+            var hobby = edit_text_hobby.text.toString()
 
             listener?.onFragmentInteraction_first(firstName)
             listener?.onFragmentInteraction_last(lastName)
             listener?.onFragmentInteraction_address(address)
             listener?.onFragmentInteraction_state(state)
             listener?.onFragmentInteraction_zip(zip)
+            listener?.onFragmentInteraction_age(age)
+            listener?.onFragmentInteraction_gender(gender)
+            listener?.onFragmentInteraction_phone(phone)
+            listener?.onFragmentInteraction_email(email)
+            listener?.onFragmentInteraction_hobby(hobby)
         }
 
         return view
@@ -86,6 +96,16 @@ class FirstFragment : Fragment() {
         fun onFragmentInteraction_state(state: String)
 
         fun onFragmentInteraction_zip(zip: String)
+
+        fun onFragmentInteraction_age(age: String)
+
+        fun onFragmentInteraction_gender(gender: String)
+
+        fun onFragmentInteraction_phone(phone: String)
+
+        fun onFragmentInteraction_email(email: String)
+
+        fun onFragmentInteraction_hobby(hobby: String)
     }
 
 
