@@ -1,0 +1,50 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:id="@+id/edit_text_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter first name"
+        />
+
+    <EditText
+        android:id="@+id/edit_text_last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter last name" />
+
+    <EditText
+        android:id="@+id/edit_text_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter address" />
+
+    <EditText
+        android:id="@+id/edit_text_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter state" />
+
+    <EditText
+        android:id="@+id/edit_text_zip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter zip code" />
+
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFF"/>
+
+</LinearLayout>
